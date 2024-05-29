@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+.leftSection {
+    padding: 14em;
+    text-align: left;
+    margin-left: 36px;
+}
+.leftSection b{
+  color: #0f6efd;
+}
+.rightSection{
+  padding: 8em;
+}
+
+.rightSection img{    
+  height: 400px;
+  width: 380px;
+  border-radius: 500px;
+
+}
+.card{
+  padding: 50px;
+}
