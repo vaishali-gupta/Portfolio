@@ -25,7 +25,7 @@ function LandingComponent() {
         <NavbarBrand href="/">
          Portfolio
        </NavbarBrand>
-       <NavbarText>Contact Me</NavbarText>
+       <NavbarText><a href='mailto:vaishaligupta0205@gmail.com' target='_blank'>Contact Me</a></NavbarText>
       </Navbar>
 
 
