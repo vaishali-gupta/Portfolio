@@ -121,9 +121,9 @@ function LandingComponent() {
       </Row>
       <Row>
         <Col id="social">
-          <a href='https://www.linkedin.com/in/vaishali-gupta/' target='_blank' rel='noreferrer' title='LinkedIn Profile'><img src={linkedin} ></img></a>
-          <a href='https://github.com/vaishali-gupta/' target='_blank' rel='noreferrer' title='Github Profile'> <img src={github}></img></a>
-          <a href='https://drive.google.com/file/d/1kQViIKjImTk3LyDhiC6n_cWDcXXeQuzT/view?usp=sharing' target='_blank' rel='noreferrer' title='Download Resume'><img src={resume}></img></a>
+          <a href='https://www.linkedin.com/in/vaishali-gupta/' target='_blank' rel='noreferrer' title='LinkedIn Profile'><img src={linkedin}  alt='LinkedIn'></img></a>
+          <a href='https://github.com/vaishali-gupta/' target='_blank' rel='noreferrer' title='Github Profile'> <img src={github}  alt='Github'></img></a>
+          <a href='https://drive.google.com/file/d/1kQViIKjImTk3LyDhiC6n_cWDcXXeQuzT/view?usp=sharing' target='_blank' rel='noreferrer' title='Download Resume'><img src={resume}  alt='Resume'></img></a>
         </Col>
       </Row>
     </div>
