@@ -16,6 +16,9 @@ import {
 import logo from './img/profile.jpeg';
 import carPic from './img/Car-Hub.png';
 import shoePic from './img/React-App.png';
+import github from './img/github-icon.png';
+import linkedin from './img/linkedin-icon.jpeg';
+import resume from './img/resumeicon.png';
 
 function LandingComponent() {
 
@@ -36,7 +39,7 @@ function LandingComponent() {
           <h1> a <b>Frontend</b> Engineer</h1>
           <p>I'm a passionate front-end engineer with a strong foundation in HTML, CSS, and JavaScript. I bring creative ideas to life by building user-friendly and visually appealing web experiences.</p>
           <div>
-            <Button
+            <Button href="#social"
               color="secondary"
             >
               Hire Me
@@ -114,6 +117,13 @@ function LandingComponent() {
                 </CardBody>
               </Card>
             </CardGroup>
+        </Col>
+      </Row>
+      <Row>
+        <Col id="social">
+          <a href='https://www.linkedin.com/in/vaishali-gupta/' target='_blank' title='LinkedIn Profile'><img src={linkedin} ></img></a>
+          <a href='https://github.com/vaishali-gupta/' target='_blank' title='Github Profile'> <img src={github}></img></a>
+          <a href='https://drive.google.com/file/d/1kQViIKjImTk3LyDhiC6n_cWDcXXeQuzT/view?usp=sharing' target='_blank>' title='Download Resume'><img src={resume}></img></a>
         </Col>
       </Row>
     </div>
