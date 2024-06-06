@@ -25,7 +25,7 @@ function LandingComponent() {
         <NavbarBrand href="/">
          Portfolio
        </NavbarBrand>
-       <NavbarText>Simple Text</NavbarText>
+       <NavbarText>Contact Me</NavbarText>
       </Navbar>
 
 
@@ -34,7 +34,7 @@ function LandingComponent() {
           <h3>Hello</h3>
           <h1>I'm Vaishali Gupta </h1>
           <h1> a <b>Frontend</b> Engineer</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, excepturi. Distinctio accusantium fugit odit? Fugit ipsam. Sed ac fringilla ex. Nam mauris velit, ac cursus quis, non leo.</p>
+          <p>I'm a passionate front-end engineer with a strong foundation in HTML, CSS, and JavaScript. I bring creative ideas to life by building user-friendly and visually appealing web experiences.</p>
           <div>
             <Button
               color="secondary"
@@ -44,7 +44,7 @@ function LandingComponent() {
             <Button href="#projects"
               color="primary"
             >
-              Portfolio
+              Projects
             </Button>
           </div>
         </Col>
@@ -68,7 +68,7 @@ function LandingComponent() {
                     CarHub Shop
                   </CardTitle>
                   <CardText>
-                    This is a wider card with supporting text below as a natural lead-in to additional content.
+                    Using this website user can sell and buy car. They can check the car related details.
                   </CardText>
                   <Button color="info" href="https://carhub-shop.netlify.app/" target="_blank">
                     Demo
@@ -87,7 +87,7 @@ function LandingComponent() {
                     Fancy Shoe Store
                   </CardTitle>
                   <CardText>
-                    This card has supporting text below as a natural lead-in to additional content.
+                    This website is in retail Domain of fancy shoe. User can buy the shoe online. 
                   </CardText>
                   <Button color="info" href="https://fancy-shoe-store.netlify.app" target="_blank">
                     Demo
@@ -103,10 +103,10 @@ function LandingComponent() {
                 />
                 <CardBody>
                   <CardTitle tag="h5">
-                    Card title
+                    Upcoming...
                   </CardTitle>
                   <CardText>
-                    Placeholder for a new project under construction.
+                    New project under construction.
                   </CardText>
                   <Button color="secondary">
                     Demo
