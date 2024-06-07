@@ -13,7 +13,7 @@ import {
   CardImg,
   CardGroup
 } from 'reactstrap';
-import logo from './img/profile.jpeg';
+import logo from './img/IMG_1300.jpg';
 import carPic from './img/Car-Hub.png';
 import shoePic from './img/React-App.png';
 import github from './img/github-icon.png';
@@ -31,7 +31,7 @@ function LandingComponent() {
        <NavbarText><a href='mailto:vaishaligupta0205@gmail.com' target='_blank' rel='noreferrer'>Contact Me</a></NavbarText>
       </Navbar>
 
-
+    
       <Row>
         <Col className='leftSection text-left'>
           <h3>Hello</h3>
