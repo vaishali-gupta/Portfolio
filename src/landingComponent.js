@@ -16,15 +16,15 @@ import {
 import logo from './img/IMG_1300.jpg';
 import carPic from './img/Car-Hub.png';
 import shoePic from './img/React-App.png';
-import github from './img/github-icon.png';
-import linkedin from './img/linkedin-icon.jpeg';
-import resume from './img/resumeicon.png';
+import github from './img/github.png';
+import linkedin from './img/linkedin.png';
+import resume from './img/cv.png';
 
 function LandingComponent() {
 
   return (
     <div>
-      <Navbar className="my-2" color="dark" dark>
+      <Navbar className="" color="dark" dark>
         <NavbarBrand href="/">
          Portfolio
        </NavbarBrand>
